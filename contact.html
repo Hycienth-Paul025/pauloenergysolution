@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="hycienth paul" />
+    <meta
+      name="description"
+      content="Contact Information for Paulo's Energy Solutions"
+    />
+    <title>Contact Us - PES</title>
+    <link rel="icon" href="Img/paulo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <h1>Contact</h1>
+
+    <header>
+      <nav aria-label="primary navigation">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="hour.html">Hours</a>
+          </li>
+        </ul>
+      </nav>
+
+      <figure>
+        <img
+          src="Img/solar-panel-612x612.jpg"
+          alt="solar panel image"
+          title="Complete Standard solar power"
+          width="612"
+          height="612"
+          loading="lazy"
+        />
+        <img
+          src="Img/solar-battery-960_720.jpg"
+          alt="solar panel image"
+          title="Standard and powerful solar street light"
+          width="612"
+          height="612"
+          loading="lazy"
+        />
+        <figcaption>
+          Solar panels and 24 Hoours bright and Powerful Solar light
+        </figcaption>
+      </figure>
+    </header>
+    <hr />
+    <main>
+      <section>
+        <h2>Our Contact Form</h2>
+
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send us a Message</legend>
+            <p>
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Full name"
+                required
+              />
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+            </p>
+            <p>
+              <label for="phone">Phone:</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="012345678999"
+                pattern="[0-9]{4}[0-9]{3}[0-9]{4}"
+                required
+              />
+            </p>
+            <p>
+              <label for="address">Address and location:</label>
+              <br />
+              <textarea class="info"
+                name="text"
+                id="address"
+                cols="30"
+                rows="10"
+                placeholder="Address"
+              ></textarea>
+            </p>
+            <p>
+              <label for="message">Your Order</label>
+              <br />
+              <textarea class="info"
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Place Your Order Here"
+              ></textarea>
+            </p>
+          </fieldset>
+          <button type="submit">Send</button>
+          <button type="reset"></button>
+        </form>
+      </section>
+      <h2>Our location</h2>
+      <address>
+        85, Greenland Avenue, Suite B <br />
+        Miami carlifornia, 102 102
+        <br /><br />
+        Phone:
+        <a href="tel:+12345678909"
+          ><span class="highlight">5555-555-5555</span></a
+        >
+      </address>
+    </main>
+    <hr>
+    <br />
+    <p>
+      <a href="#">Back to Top</a>
+    </p>
+
+    <footer>
+      <p>Copyright &copy; Paulo's Energy Solution</p>
+    </footer>
+  </body>
+</html>
