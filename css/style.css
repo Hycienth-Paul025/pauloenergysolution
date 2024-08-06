@@ -3,6 +3,21 @@ html {
     font-size: 22px
 }
 
+img {
+    display: block;
+}
+
+/* begin Reseet*/
+
+
+/* End Reset */
+
+/* utility Classes */
+
+
+
+/* End Utility Reset */
+
 body {
     background-color: black;
     color: #fff;
@@ -12,12 +27,53 @@ font-weight: 400;
 font-style: normal; */
 }
 
-h1,
+.h1 {
+    font-size: 500%;
+    color: #000;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.offscreen {
+    position: absolute;
+    left: 100px;
+    top: 320px;
+    color: #000;
+    font-weight: bolder;
+    white-space: wrap;
+}
+
+.welcome {
+    border-bottom: 3px solid white;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+
+    background-color: #fff;
+    background-image: url('../img/plain.jpg');
+}
+
+.banner {
+    width: 35%;
+}
+
+.banner img {
+    width: 10%;
+    height: auto;
+    min-width: 100px;
+    border: 10px double black;
+    border-radius: 50%;
+}
+
 h2,
 h3 {
     box-sizing: border-box;
     border: 6px double black;
-   /*  outline: 3px solid darkred;
+    /*  outline: 3px solid darkred;
     outline-offset: -10px; */
     background-color: gold;
     color: black;
@@ -75,12 +131,28 @@ caption {
     text-decoration: underline;
     text-decoration-color: blue;
 }
-.info{
+
+.info {
     box-sizing: border-box;
     border: solid gold;
     width: 40%;
     height: 20%;
-    font-family:inherit;
+    font-family: inherit;
+}
+
+.button {
+    position: absolute;
+    left: -10000px;
+}
+
+.simple {
+    font-family: inherit;
+    font-weight: bolder;
+    color: white;
+    background-color: green;
+    width: 60px;
+    height: 40px;
+    top: 50%;
 }
 
 /* .circle{
