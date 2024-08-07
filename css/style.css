@@ -54,7 +54,7 @@ font-style: normal; */
     align-items: center;
    
     background-color: #000;
-   /*  background-image: url('../img/plain.jpg'); */
+    background-image: url('../img/board.jpg');
 }
 
 .banner {
