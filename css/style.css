@@ -29,7 +29,8 @@ font-style: normal; */
 
 .h1 {
     font-size: 500%;
-    color: #000;
+    color: #fff;
+    
 }
 
 .nowrap {
@@ -39,8 +40,8 @@ font-style: normal; */
 .offscreen {
     position: absolute;
     left: 100px;
-    top: 320px;
-    color: #000;
+    top: 70px;
+    color: #fff;
     font-weight: bolder;
     white-space: wrap;
 }
@@ -51,23 +52,23 @@ font-style: normal; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 50px;
-
-    background-color: yellow;
-    background-image: url('../img/plain.jpg');
+   
+    background-color: #000;
+   /*  background-image: url('../img/plain.jpg'); */
 }
 
 .banner {
     width: 35%;
-}
-
-.banner img {
-    width: 10%;
+} 
+ 
+.banner img{
+    width: 50%;
     height: auto;
     min-width: 100px;
     border: 10px double black;
     border-radius: 50%;
 }
+  
 
 h2,
 h3 {
