@@ -61,13 +61,13 @@ font-style: normal; */
     width: 35%;
 } 
  
-.banner img{
-    width: 50%;
+/* .banner img{
+    width: 10%;
     height: auto;
     min-width: 100px;
     border: 10px double black;
     border-radius: 50%;
-}
+} */
   
 
 h2,
